@@ -17,6 +17,20 @@ Study App with React Native - FireBase
     <td width="33%">
       <b>OnBoarding Screen 2</b>
     </td>
+    <td width="33%">
+      <img src="./img/Signup.png" />
+    </td>
+    <td width="33%">
+      <img src="./img/SignIn.png" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+     <b> Sign Up</b>
+    </td>
+    <td width="33%">
+      <b>Sign In</b>
+    </td>
    
   </tr>
 </table>
