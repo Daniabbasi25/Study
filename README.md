@@ -35,4 +35,21 @@ Study App with React Native - FireBase
     </td>
    
   </tr>
+    <tr>
+    <td width="33%">
+      <img src="./img/Dasboard.png" />
+    </td>
+    <td width="33%">
+      <img src="./img/profile.png" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+     <b>Dashboard</b>
+    </td>
+    <td width="33%">
+      <b>Update Profile</b>
+    </td>
+   
+  </tr>
 </table>
