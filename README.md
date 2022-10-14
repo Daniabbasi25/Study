@@ -9,17 +9,7 @@ Study App with React Native - FireBase
     <td width="15%">
       <img src="./img/2.png" />
     </td>
-  </tr>
-  <tr>
-    <td width="15%">
-     <b> OnBoarding Screen</b>
-    </td>
-    <td width="15%">
-      <b>OnBoarding Screen 2</b>
-    </td>
-    </tr>
-    <tr>
-    <td width="15%">
+     <td width="15%">
       <img src="./img/signup.png" />
     </td>
     <td width="15%">
@@ -28,13 +18,18 @@ Study App with React Native - FireBase
   </tr>
   <tr>
     <td width="15%">
+     <b> OnBoarding Screen</b>
+    </td>
+    <td width="15%">
+      <b>OnBoarding Screen 2</b>
+    </td>
+    <td width="15%">
      <b> Sign Up</b>
     </td>
     <td width="15%">
       <b>Sign In</b>
     </td>
-   
-  </tr>
+    </tr>
     <tr>
     <td width="15%">
       <img src="./img/Dasboard.png" />
