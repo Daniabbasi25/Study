@@ -3,7 +3,7 @@ import React from 'react';
 
 const CourseDetailScreen = () => {
   return (
-    <View>
+    <View style={{flex: 1, backgroundColor: '#fff'}}>
       <Text>CourseDetail</Text>
     </View>
   );
