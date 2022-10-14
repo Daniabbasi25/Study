@@ -74,7 +74,7 @@ const DATA = [
     img: 'https://loremflickr.com/320/240',
   },
 ];
-const CoursesScreen = () => {
+const CoursesScreen = ({navigation}) => {
   const [filter, setFilter] = useState('All');
   return (
     <View style={styles.screen}>
@@ -82,7 +82,7 @@ const CoursesScreen = () => {
         <Text style={styles.heading}>
           Upgrade you skill and get your certified Courses
         </Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('CourseDetail')}>
           <Text style={styles.mainButton}>Go to my courses</Text>
         </TouchableOpacity>
       </View>

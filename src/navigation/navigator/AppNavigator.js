@@ -4,6 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from '../../screens/HomeScreen';
 import MyTabs from './Tab';
 import CoursesScreen from '../../screens/CoursesScreen';
+import CourseNavigator from './CourseNavigator';
 
 const AppNavigator = () => {
   const Stack = createNativeStackNavigator();
@@ -17,8 +18,8 @@ const AppNavigator = () => {
       />
       <Stack.Screen
         name="Course"
-        component={CoursesScreen}
-        options={{headerShadowVisible: false, headerTitleAlign: 'center'}}
+        component={CourseNavigator}
+        options={{headerShown: false}}
       />
     </Stack.Navigator>
   );
